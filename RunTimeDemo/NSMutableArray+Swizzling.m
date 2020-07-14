@@ -101,7 +101,7 @@
 #endif
         return nil;
     }
-    if (index > self.count) {
+    if (index >= self.count) {
 #if DEBUG
         NSLog(@"%s index out of bounds in array", __FUNCTION__);
 #endif
